@@ -25,7 +25,6 @@
 - **Rechtlicher Status:** §42 SGB VIII (freiwillige Inobhutnahme seit 23.07.2026) — **KEIN GERICHT**
 - **Fachkräfte:** Dana Hinz, Florian Jäger (Impuls e.V. — Familienhilfe)
 - **Sachbearbeiter JA:** Thomas Pankalla
-- **Anwältin:** Kristina Schulz (Kanzlei Schulz & Specht)
 
 ---
 
