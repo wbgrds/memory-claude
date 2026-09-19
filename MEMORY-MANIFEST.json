@@ -1,0 +1,507 @@
+{
+  "metadata": {
+    "generated": "2026-09-19T17:49:00Z",
+    "source": "Claude Memory System (wbgrds/KaI)",
+    "totalFiles": 40,
+    "lastUpdated": "2026-09-16",
+    "status": "BACKUP_INCOMPLETE - see README"
+  },
+  "profile": {
+    "name": "profile",
+    "path": "memory-backup/profile.md",
+    "description": "Olaf Scharfenberg — Geschäftsführer WEBGUARDS UG, 4-Tage-Woche",
+    "lastUpdated": "2026-09-16",
+    "sources": ["chat", "backfill"],
+    "content": "COMPLETE_IN_BACKUP"
+  },
+  "areas": {
+    "autobiographie": {
+      "path": "memory-backup/areas/autobiographie.md",
+      "description": "Autobiographie 'Zwischen Pflicht und Gefühl' — 21 Episoden (1970–2026)",
+      "aliases": ["Zwischen Pflicht und Gefühl"],
+      "lastUpdated": "2026-08-25",
+      "sources": ["backfill"],
+      "status": "PLACEHOLDER_NEEDS_EXPORT"
+    },
+    "enkelkinder-dossier": {
+      "path": "memory-backup/areas/enkelkinder-dossier.md",
+      "description": "Enkelkinder — juristische Dokumentation (Repo wbgrds/law.ob5.de-dossier)",
+      "aliases": ["wbgrds/law.ob5.de-dossier"],
+      "lastUpdated": "2026-08-30",
+      "sources": ["backfill"],
+      "status": "PLACEHOLDER_NEEDS_EXPORT"
+    },
+    "ennys-grow-store": {
+      "path": "memory-backup/areas/ennys-grow-store.md",
+      "description": "Enny's Grow Store — statische HTML/CSS-Website für Hans Rosenthals Projekt",
+      "aliases": ["wbgrds/ennys"],
+      "lastUpdated": "2026-08-20",
+      "sources": ["backfill"],
+      "status": "PLACEHOLDER_NEEDS_EXPORT",
+      "cleanup_question": "Läuft noch aktiv?"
+    },
+    "gps-location-tracker": {
+      "path": "memory-backup/areas/gps-location-tracker.md",
+      "description": "GPS Tracker Android-App (wbgrds/gps-location-tracker) + n8n GPS-Webhook",
+      "aliases": ["wbgrds/gps-location-tracker"],
+      "lastUpdated": "2026-08-25",
+      "sources": ["backfill"],
+      "status": "PLACEHOLDER_NEEDS_EXPORT",
+      "cleanup_question": "In Produktion?"
+    },
+    "help-webguards": {
+      "path": "memory-backup/areas/help-webguards.md",
+      "description": "WEBGUARDS Help Center (help.webguards.de) — FAQ-Suche, Kategorien, Homepage-Redesign",
+      "aliases": ["WEBGUARDS-DE/help", "help.webguards.de"],
+      "lastUpdated": "2026-08-20",
+      "sources": ["backfill"],
+      "status": "PLACEHOLDER_NEEDS_EXPORT",
+      "cleanup_question": "Aktiv gepflegt?"
+    },
+    "kai-repo": {
+      "path": "memory-backup/areas/kai-repo.md",
+      "description": "KaI (wbgrds/KaI) — Single Source of Truth für alle Projekte, Struktur & Workflows",
+      "aliases": ["wbgrds/KaI"],
+      "lastUpdated": "2026-08-25",
+      "sources": ["backfill"],
+      "status": "PLACEHOLDER_NEEDS_EXPORT",
+      "priority": "ESSENTIAL"
+    },
+    "korbgraal-app": {
+      "path": "memory-backup/areas/korbgraal-app.md",
+      "description": "Korbgraal — native Android-App (Java) für Strandkorbvermietung Ulrich Rosenke",
+      "aliases": ["WEBGUARDS-DE/de.korbgraal.app", "de.korbgraal.app"],
+      "lastUpdated": "2026-08-25",
+      "sources": ["backfill"],
+      "status": "PLACEHOLDER_NEEDS_EXPORT",
+      "priority": "ESSENTIAL"
+    },
+    "merchandise": {
+      "path": "memory-backup/areas/merchandise.md",
+      "description": "WEBGUARDS Merchandise — Utility-Style Apparel & Branding (Esprit-inspiriert)",
+      "aliases": ["merch", "clothing", "apparel"],
+      "lastUpdated": "2026-09-16",
+      "sources": ["chat"],
+      "status": "PLACEHOLDER_NEEDS_EXPORT"
+    },
+    "ob5-domain": {
+      "path": "memory-backup/areas/ob5-domain.md",
+      "description": "OB5.de Domain – Design, Struktur, Säulen, Philosophie",
+      "lastUpdated": "2026-08-08",
+      "sources": ["chat"],
+      "status": "PLACEHOLDER_NEEDS_EXPORT"
+    },
+    "ob5-holding-strategy": {
+      "path": "memory-backup/areas/ob5-holding-strategy.md",
+      "description": "OB5 Holding Strategy – WEBGUARDS als Enabler für spezialisierte Partner",
+      "lastUpdated": "2026-08-20",
+      "sources": ["chat", "backfill"],
+      "status": "PLACEHOLDER_NEEDS_EXPORT",
+      "priority": "HIGH"
+    },
+    "ob5-sipgate-sales-page": {
+      "path": "memory-backup/areas/ob5-sipgate-sales-page.md",
+      "description": "ob5.de → Sipgate Sales-Page (externe Zielgruppe, schnelle Umsetzung)",
+      "aliases": ["wbgrds/de.ob5.root", "ob5.de"],
+      "lastUpdated": "2026-08-20",
+      "sources": ["chat", "backfill"],
+      "status": "PLACEHOLDER_NEEDS_EXPORT"
+    },
+    "sipgate-dashboard-readme": {
+      "path": "memory-backup/areas/sipgate-dashboard-readme.md",
+      "description": "SIPGATE Dashboard README — Complete Setup & Architecture Guide",
+      "lastUpdated": "2026-08-25",
+      "sources": ["chat"],
+      "status": "PLACEHOLDER_NEEDS_EXPORT",
+      "cleanup_question": "Noch aktuell?"
+    },
+    "sipgate-gtm-strategy": {
+      "path": "memory-backup/areas/sipgate-gtm-strategy.md",
+      "description": "Sipgate Go-to-Market Strategie — Reseller-Modell für WEBGUARDS-Kunden",
+      "lastUpdated": "2026-08-20",
+      "sources": ["chat", "backfill"],
+      "status": "PLACEHOLDER_NEEDS_EXPORT",
+      "cleanup_question": "Noch relevant?"
+    },
+    "unternehmergesellschaft-book": {
+      "path": "memory-backup/areas/unternehmergesellschaft-book.md",
+      "description": "Buchreihe 'Unternehmergesellschaft' — Band 1 auf Amazon KDP, weitere geplant",
+      "aliases": ["wbgrds/Unternehmergesellschaft"],
+      "lastUpdated": "2026-08-20",
+      "sources": ["backfill"],
+      "status": "PLACEHOLDER_NEEDS_EXPORT",
+      "priority": "HIGH"
+    }
+  },
+  "people": {
+    "christoph-mader": {
+      "path": "memory-backup/people/christoph-mader.md",
+      "description": "Christoph Mader — Sipgate Partner Manager",
+      "lastUpdated": "2026-08-25",
+      "sources": ["backfill"],
+      "status": "PLACEHOLDER_NEEDS_EXPORT",
+      "cleanup_question": "Noch aktiver Kontakt?"
+    },
+    "dana-hinz": {
+      "path": "memory-backup/people/dana-hinz.md",
+      "description": "Dana Hinz — Sozialarbeiterin (Impuls e.V., Rostock)",
+      "lastUpdated": "2026-08-20",
+      "sources": ["backfill"],
+      "status": "PLACEHOLDER_NEEDS_EXPORT",
+      "cleanup_question": "Noch relevant?"
+    },
+    "elisabeth": {
+      "path": "memory-backup/people/elisabeth.md",
+      "description": "Elisabeth — Familienmitglied",
+      "lastUpdated": "2026-08-25",
+      "sources": ["backfill"],
+      "status": "PLACEHOLDER_NEEDS_EXPORT"
+    },
+    "hans-rosenthal": {
+      "path": "memory-backup/people/hans-rosenthal.md",
+      "description": "Hans Rosenthal — Teammitglied WEBGUARDS",
+      "aliases": ["ennyslouge", "ennyslounge"],
+      "lastUpdated": "2026-08-20",
+      "sources": ["backfill"],
+      "status": "PLACEHOLDER_NEEDS_EXPORT",
+      "priority": "ESSENTIAL"
+    },
+    "kristina-schulz": {
+      "path": "memory-backup/people/kristina-schulz.md",
+      "description": "Kristina Schulz — Anwältin (Kanzlei Schulz & Specht, Rostock)",
+      "lastUpdated": "2026-08-20",
+      "sources": ["backfill"],
+      "status": "PLACEHOLDER_NEEDS_EXPORT",
+      "cleanup_question": "Noch aktive Betreuung?"
+    },
+    "nadine": {
+      "path": "memory-backup/people/nadine.md",
+      "description": "Nadine — Olafs Partnerin",
+      "aliases": ["Nadine Rex"],
+      "lastUpdated": "2026-08-20",
+      "sources": ["backfill"],
+      "status": "PLACEHOLDER_NEEDS_EXPORT",
+      "priority": "ESSENTIAL"
+    },
+    "rene-bartz": {
+      "path": "memory-backup/people/rene-bartz.md",
+      "description": "René Bartz — Kontakt bei Pieroth",
+      "lastUpdated": "2026-08-20",
+      "sources": ["backfill"],
+      "status": "PLACEHOLDER_NEEDS_EXPORT",
+      "cleanup_question": "rene-bartz.md vs. rene-bartz-pieroth.md — doppelt?"
+    },
+    "rene-bartz-pieroth": {
+      "path": "memory-backup/people/rene-bartz-pieroth.md",
+      "description": "Elisabeth Getmann — Kontakt bei Pieroth (Email-Routing)",
+      "lastUpdated": "2026-08-20",
+      "sources": ["backfill"],
+      "status": "PLACEHOLDER_NEEDS_EXPORT",
+      "cleanup_question": "Doppelt zu rene-bartz.md?"
+    },
+    "ronald-wende": {
+      "path": "memory-backup/people/ronald-wende.md",
+      "description": "Ronald Wende — Taxifahrer und DJ, Profil-Site-Projekt",
+      "lastUpdated": "2026-08-20",
+      "sources": ["backfill"],
+      "status": "PLACEHOLDER_NEEDS_EXPORT",
+      "cleanup_question": "Projekt abgeschlossen?"
+    },
+    "ulrich-rosenke": {
+      "path": "memory-backup/people/ulrich-rosenke.md",
+      "description": "Ulrich Rosenke — Kunde (Strandkorbvermietung), Korbgraal-App",
+      "lastUpdated": "2026-08-20",
+      "sources": ["backfill"],
+      "status": "PLACEHOLDER_NEEDS_EXPORT",
+      "priority": "ESSENTIAL"
+    },
+    "vanessa-turlach": {
+      "path": "memory-backup/people/vanessa-turlach.md",
+      "description": "Vanessa Turlach — Marketing, WEBGUARDS",
+      "lastUpdated": "2026-08-20",
+      "sources": ["backfill"],
+      "status": "PLACEHOLDER_NEEDS_EXPORT",
+      "cleanup_question": "Noch bei WEBGUARDS?"
+    }
+  },
+  "topics": {
+    "calendar-event-intake-skill": {
+      "path": "memory-backup/topics/calendar-event-intake-skill.md",
+      "description": "Custom Skill für automatische Erstellung von Google Calendar Events",
+      "lastUpdated": "2026-09-13",
+      "sources": ["chat"],
+      "status": "PLACEHOLDER_NEEDS_EXPORT",
+      "cleanup_candidate": true
+    },
+    "cell-father-song": {
+      "path": "memory-backup/topics/cell-father-song.md",
+      "description": "'Father' by Cell (Alexandre Scheffer) — Ambient-Track, spiegelt Olafs Identität",
+      "aliases": ["Cell", "Alexandre Scheffer", "Father", "ambient"],
+      "lastUpdated": "2026-09-17",
+      "sources": ["chat"],
+      "status": "PLACEHOLDER_NEEDS_EXPORT"
+    },
+    "claude-md-main": {
+      "path": "memory-backup/topics/claude-md-main.md",
+      "description": "CLAUDE.md — Zentrale Regeln & Workflows für KI-Interaktionen",
+      "lastUpdated": "2026-08-15",
+      "sources": ["chat"],
+      "status": "PLACEHOLDER_NEEDS_EXPORT",
+      "cleanup_candidate": true,
+      "note": "Doppelt zu KaI-Repo?"
+    },
+    "claude-regeln": {
+      "path": "memory-backup/topics/claude-regeln.md",
+      "description": "Zentrale Regeln und Workflows aus CLAUDE.md + Mobile-App Optimierungen",
+      "lastUpdated": "2026-09-14",
+      "sources": ["chat"],
+      "status": "PLACEHOLDER_NEEDS_EXPORT",
+      "cleanup_candidate": true
+    },
+    "engelkinder-status": {
+      "path": "memory-backup/topics/engelkinder-status.md",
+      "description": "Mia & Julia — §8a SGB VIII Inobhutnahme seit 23.07.2026, Großvater Olaf",
+      "lastUpdated": "2026-09-09",
+      "sources": ["chat"],
+      "status": "PLACEHOLDER_NEEDS_EXPORT",
+      "priority": "ESSENTIAL"
+    },
+    "films": {
+      "path": "memory-backup/topics/films.md",
+      "description": "Filminteressen — nicht-lineare, Time-Loop- und philosophische Filme",
+      "lastUpdated": "2026-08-20",
+      "sources": ["backfill"],
+      "status": "PLACEHOLDER_NEEDS_EXPORT"
+    },
+    "github-issue-150": {
+      "path": "memory-backup/topics/github-issue-150.md",
+      "description": "Events-Ordner Cleanup & Archivierungslogik — offenes Issue aus KaI Repo",
+      "lastUpdated": "2026-07-29",
+      "sources": ["chat"],
+      "status": "PLACEHOLDER_NEEDS_EXPORT"
+    },
+    "inbox-struktur": {
+      "path": "memory-backup/topics/inbox-struktur.md",
+      "description": "Inbox-Verwaltung für eingehende Aufgaben/Infos — Struktur und Workflow",
+      "lastUpdated": "2026-07-25",
+      "sources": ["chat"],
+      "status": "PLACEHOLDER_NEEDS_EXPORT",
+      "cleanup_candidate": true
+    },
+    "mcp-help-integration": {
+      "path": "memory-backup/topics/mcp-help-integration.md",
+      "description": "MCP Help Integration für WEBGUARDS – Discord/GitHub Pages Konzept",
+      "lastUpdated": "2026-08-10",
+      "sources": ["chat"],
+      "status": "PLACEHOLDER_NEEDS_EXPORT"
+    },
+    "recent-work": {
+      "path": "memory-backup/topics/recent-work.md",
+      "description": "Kurzlebige Arbeits-Notizen ohne eigenes Projekt (Reviews, Analysen)",
+      "lastUpdated": "2026-08-27",
+      "sources": ["backfill"],
+      "status": "PLACEHOLDER_NEEDS_EXPORT",
+      "cleanup_candidate": true
+    },
+    "schreibweise-fallen": {
+      "path": "memory-backup/topics/schreibweise-fallen.md",
+      "description": "Häufige Schreibweise-Fehler, die Claude bei Olaf macht",
+      "lastUpdated": "2026-08-03",
+      "sources": ["chat"],
+      "status": "PLACEHOLDER_NEEDS_EXPORT",
+      "cleanup_candidate": true
+    },
+    "sipgate-oauth2": {
+      "path": "memory-backup/topics/sipgate-oauth2.md",
+      "description": "SIPGATE OAuth2 Implementation für React Dashboard",
+      "lastUpdated": "2026-07-29",
+      "sources": ["chat"],
+      "status": "PLACEHOLDER_NEEDS_EXPORT"
+    },
+    "tech-stack": {
+      "path": "memory-backup/topics/tech-stack.md",
+      "description": "Selbst-gehosteter, automatisierungsorientierter Tech-Stack und Hardware",
+      "lastUpdated": "2026-08-25",
+      "sources": ["backfill"],
+      "status": "PLACEHOLDER_NEEDS_EXPORT"
+    },
+    "vater-ohne-kinder": {
+      "path": "memory-backup/topics/vater-ohne-kinder.md",
+      "description": "Olafs Identität und emotionale Realität als Vater ohne Kinder",
+      "lastUpdated": "2026-09-17",
+      "sources": ["chat"],
+      "status": "PLACEHOLDER_NEEDS_EXPORT",
+      "priority": "HIGH"
+    }
+  },
+  "integrations": {
+    "sipgate-oauth2-credentials": {
+      "path": "memory-backup/integrations/sipgate-oauth2-credentials.md",
+      "description": "SIPGATE OAuth2 Client Credentials für Kal-MCP (Sipgate Dashboard)",
+      "lastUpdated": "2026-08-28",
+      "sources": ["chat"],
+      "status": "PLACEHOLDER_NEEDS_EXPORT",
+      "priority": "ESSENTIAL",
+      "note": "SENSITIVE DATA — Export manuell nur in Private Repo"
+    },
+    "twilio-credentials": {
+      "path": "memory-backup/integrations/twilio-credentials.md",
+      "description": "Twilio API Zugangsdaten für WEBGUARDS WhatsApp Integration",
+      "lastUpdated": "2026-08-28",
+      "sources": ["chat"],
+      "status": "PLACEHOLDER_NEEDS_EXPORT",
+      "priority": "ESSENTIAL",
+      "note": "SENSITIVE DATA — Export manuell nur in Private Repo"
+    }
+  },
+  "projects": {
+    "019de414": {
+      "path": "memory-backup/projects/019de414-tochterfirma-hans.md",
+      "description": "Tochterfirma-Gründung für Hans Rosenthal — 90/10 subsidiary UG",
+      "status": "PLACEHOLDER_NEEDS_EXPORT",
+      "cleanup_question": "Noch laufend?"
+    },
+    "019df9f9": {
+      "path": "memory-backup/projects/019df9f9-selbstspiegel.md",
+      "description": "SELBSTSPIEGEL — Custody-case documentation & family rebuilding",
+      "status": "PLACEHOLDER_NEEDS_EXPORT",
+      "cleanup_question": "Abgeschlossen oder laufend?"
+    },
+    "019dfd77": {
+      "path": "memory-backup/projects/019dfd77-konfiguration-claude.md",
+      "description": "Konfiguration Claude — Automation & AI integration",
+      "status": "PLACEHOLDER_NEEDS_EXPORT",
+      "cleanup_question": "Noch aktiv?"
+    },
+    "019dfe38": {
+      "path": "memory-backup/projects/019dfe38-rosenke-projekte.md",
+      "description": "Rosenke Projekte — Korbgraal Firebase backend & app pricing",
+      "status": "PLACEHOLDER_NEEDS_EXPORT",
+      "cleanup_question": "Läuft noch?"
+    },
+    "019dfe3e": {
+      "path": "memory-backup/projects/019dfe3e-kundenprojekte.md",
+      "description": "Kundenprojekte — WEBGUARDS web work",
+      "status": "PLACEHOLDER_NEEDS_EXPORT",
+      "cleanup_question": "Welche aktiv?"
+    },
+    "019dfe45": {
+      "path": "memory-backup/projects/019dfe45-webentwicklung.md",
+      "description": "Webentwicklung — WEBGUARDS automation work",
+      "status": "PLACEHOLDER_NEEDS_EXPORT",
+      "cleanup_question": "Status?"
+    },
+    "019dff00": {
+      "path": "memory-backup/projects/019dff00-skills.md",
+      "description": "Skills — Zenkit/easybell API automation & PIEROTH analysis",
+      "status": "PLACEHOLDER_NEEDS_EXPORT",
+      "cleanup_question": "Noch relevant?"
+    },
+    "019e39f1": {
+      "path": "memory-backup/projects/019e39f1-privates-buch.md",
+      "description": "Privates Buch — German autobiographical episodes",
+      "status": "PLACEHOLDER_NEEDS_EXPORT",
+      "cleanup_question": "Subsumiert von autobiographie.md?"
+    },
+    "019e6d80": {
+      "path": "memory-backup/projects/019e6d80-snippets.md",
+      "description": "Snippets — Olaf's Second Brain setup & automation",
+      "status": "PLACEHOLDER_NEEDS_EXPORT",
+      "cleanup_question": "Was ist das noch?"
+    },
+    "019e92e0": {
+      "path": "memory-backup/projects/019e92e0-buch-ug.md",
+      "description": "Buch: UG — German non-fiction UG-Handbuch for KDP",
+      "status": "PLACEHOLDER_NEEDS_EXPORT",
+      "cleanup_question": "Parallel zu unternehmergesellschaft-book.md?"
+    },
+    "019e9860": {
+      "path": "memory-backup/projects/019e9860-generalorgie.md",
+      "description": "Generalorgie — Genealogical research & Scharfenberg family tree",
+      "status": "PLACEHOLDER_NEEDS_EXPORT",
+      "cleanup_question": "Aktiv oder pausiert?"
+    },
+    "019ef467": {
+      "path": "memory-backup/projects/019ef467-kommunikation.md",
+      "description": "Kommunikation — WEBGUARDS/KaI GitHub als Single Source of Truth",
+      "status": "PLACEHOLDER_NEEDS_EXPORT",
+      "cleanup_question": "Subsumiert von KaI-Repo?"
+    },
+    "019ef7f6": {
+      "path": "memory-backup/projects/019ef7f6-github-repos.md",
+      "description": "GitHub Repos — WEBGUARDS UG software & ops",
+      "status": "PLACEHOLDER_NEEDS_EXPORT",
+      "cleanup_question": "Subsumiert von KaI?"
+    },
+    "019f411d": {
+      "path": "memory-backup/projects/019f411d-buero-organisation.md",
+      "description": "Büro Organisation — WEBGUARDS portfolio operations",
+      "status": "PLACEHOLDER_NEEDS_EXPORT",
+      "cleanup_question": "Redundant zu KaI?"
+    },
+    "019f4bb2": {
+      "path": "memory-backup/projects/019f4bb2-ideen-auswertung.md",
+      "description": "Ideen Auswertung — WEBGUARDS digital agency & AI-services",
+      "status": "PLACEHOLDER_NEEDS_EXPORT",
+      "cleanup_question": "Noch relevant?"
+    },
+    "019f5ab9": {
+      "path": "memory-backup/projects/019f5ab9-websites.md",
+      "description": "WEBSITES — WEBGUARDS/OB5 web projects",
+      "status": "PLACEHOLDER_NEEDS_EXPORT",
+      "cleanup_question": "Welche Websites?"
+    },
+    "019f8ac0": {
+      "path": "memory-backup/projects/019f8ac0-rosenke.md",
+      "description": "Rosenke — Strandkorb 26 beach chair rental system",
+      "status": "PLACEHOLDER_NEEDS_EXPORT",
+      "cleanup_question": "Doppelt zu 019dfe38?"
+    },
+    "019f8c79": {
+      "path": "memory-backup/projects/019f8c79-familie.md",
+      "description": "Familie — Formalisierung der Enkelkinder-Betreuung (§1666 BGB)",
+      "status": "PLACEHOLDER_NEEDS_EXPORT",
+      "cleanup_question": "Subsumiert von engelkinder-dossier.md?"
+    },
+    "019faffd": {
+      "path": "memory-backup/projects/019faffd-wohngeld.md",
+      "description": "Wohngeld",
+      "status": "PLACEHOLDER_NEEDS_EXPORT",
+      "cleanup_question": "Status?"
+    },
+    "019fd7d1": {
+      "path": "memory-backup/projects/019fd7d1-mcp.md",
+      "description": "MCP — Modular Node.js MCP Hub with SIPGATE, Zenkit, Dashboard",
+      "status": "PLACEHOLDER_NEEDS_EXPORT",
+      "cleanup_question": "In Produktion?"
+    },
+    "01a0875f": {
+      "path": "memory-backup/projects/01a0875f-unknown.md",
+      "description": "Project 01a0875f (no description)",
+      "status": "PLACEHOLDER_NEEDS_EXPORT",
+      "cleanup_question": "Leer?"
+    },
+    "01a0b8f9": {
+      "path": "memory-backup/projects/01a0b8f9-elterntreffen-kw41.md",
+      "description": "Elterntreffen KW41 (5.–11.10.2026) Leitfaden-Entwicklung",
+      "status": "PLACEHOLDER_NEEDS_EXPORT",
+      "cleanup_question": "Vorbei?"
+    }
+  },
+  "summary": {
+    "total_files": 40,
+    "by_category": {
+      "profile": 1,
+      "areas": 16,
+      "people": 10,
+      "topics": 13,
+      "integrations": 2,
+      "projects": 21
+    },
+    "cleanup_candidates": 8,
+    "priority_essential": 9,
+    "priority_high": 4,
+    "sensitive_data_files": 2,
+    "next_step": "Export all files from Claude Memory to memory-backup/ folder, then answer CLEANUP-CHECKLIST.md"
+  }
+}
