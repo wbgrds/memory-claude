@@ -7,7 +7,7 @@
 # 🎯 ÜBERBLICK
 
 | Projekt | Status | Dateien | Größe |
-|---------|--------|---------|-------|
+|---------|--------|---------|----------|
 | Familie | Aktiv | 14 | 46 KB |
 | Elterntreffen KW41 | Aktiv | 3 | 3.2 KB |
 | **Gesamt** | — | 17 | 49 KB |
@@ -324,34 +324,7 @@ Hans war die ganze Zeit auf seinem eigenen Zeitplan unterwegs:
 
 ---
 
-# 📋 NÄCHSTE SCHRITTE (URGENT)
-
-### Vor 18.09.2026 (KRITISCH — Ablauf 8-Wochen-Frist)
-
-1. **Mail an Pankalla (EINE Mail, drei Fragen):**
-   - Kita-Ummeldung: 40km täglich nicht tragbar, Lösung?
-   - 8-Wochen-Frist: Was passiert am 18.09.? (Gericht automatisch oder Eltern-Abholen?)
-   - Finanzierung: 900€/Kind schriftlich bestätigen + Zahlungsstart + Rechtsgrundlage + Dauer
-
-2. **Anruf Kristina Schulz:** Welche Strategie ist sicher? (§1666 proaktiv oder warten?)
-
-3. **Eltern-Treffen mit Dana Hinz & Herr Jäger:** Alle drei Szenarien (A/B/C) zeigen, aber für C (Reutershagen) argumentieren
-
-### Mittelfristig (vor 18.09.2026)
-
-- Schriftliche Klärung mit Pankalla: Gericht automatisch eingeschaltet oder nicht?
-- Rechtliche Strategie mit Kristina Schulz überprüfen: Kann Olaf selbst §1666-Antrag einreichen?
-- Besuchsrechte & Kontaktregelung für Eltern strukturieren (Frequenz, Dauer, betreut/unbetreut)
-
-### Gerichtsablauf (wenn §1666 eröffnet)
-- **Antrag:** Bis 18.09. einreichen
-- **Gerichtsladung:** 4–8 Wochen nach Antrag (Oktober 2026)
-- **Hauptverhandlung:** Oktober/November 2026
-- **Urteil:** Dezember 2026
-
----
-
-# 📊 SPEICHERSTRUKTUR
+# 📋 SPEICHERSTRUKTUR
 
 ## /cleanup-family Befehl
 Bei Context-Limit nahe automatisch eingeben:
