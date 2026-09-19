@@ -282,7 +282,7 @@ Hans war die ganze Zeit auf seinem eigenen Zeitplan unterwegs:
 
 ### GitHub-Repos
 - **Primär:** `wbgrds/law.ob5.de-dossier` (Dossier-Dokumentation)
-- **KaI:** `wbgrds/KaI/private/engelkinder/` (persönliche Meta)
+- **KaI:** `wbgrds/KaI/private/enkelkinder/` (persönliche Meta)
 - **Historisch:** `wbgrds/hr.document` (vor 22.07.2026)
 
 ### Arbeitsweise mit Claude
@@ -346,7 +346,7 @@ Bei Context-Limit nahe automatisch eingeben:
 | Projekt | Repo | Pfad |
 |---------|------|------|
 | Dossier | `wbgrds/law.ob5.de-dossier` | `docs/timeline/`, `docs/PERSONEN/` |
-| Meta-Doku | `wbgrds/KaI` | `/private/engelkinder/` |
+| Meta-Doku | `wbgrds/KaI` | `/private/enkelkinder/` |
 | Historisch | `wbgrds/hr.document` | `timeline/2026/07/` |
 
 **Stabiler Viewer-Commit:** `ebb6236`
